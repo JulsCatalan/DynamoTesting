@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/brand-databricks.ico">
+    <link rel="preload" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>DynamoTest</title>
+</head>
+<body>
+    <main>
+        <div class="titles_container">
+            <span>By JulsCatalan</span>
+            <h1>Dynamo Testing</h1>
+        </div>
+
+        <div class="general_container" id="add">
+            <h2>Agregar Usuario</h2>
+            <form id="add_form">
+                <input type="text" id="add_name" placeholder="Nombre" required>
+                <input type="email" id="add_mail" placeholder="Correo" required>
+                <button type="submit">Agregar Usuario</button>
+            </form>
+        </div>
+
+        <div class="general_container" id="delete">
+            <h2>Eliminar Usuario</h2>
+            <form id="delete_form">
+                <input type="text" id="delete_id" placeholder="User ID" required>
+                <button type="submit">Borrar Usuario</button>
+            </form>
+        </div>
+
+        <!-- <h2>Actualizar Usuario</h2>
+        <form id="update_form">
+            <input type="number" id="user_id" placeholder="User ID" required>
+            <input type="text" id="update_name" placeholder="Nombre" required>
+            <input type="email" id="update_mail" placeholder="Correo" required>
+            <button type="submit">Actualizar Usuario</button>
+        </form> -->
+
+        <div class="general_container" id="list">
+            <h2>Lista de Usuarios Registrados</h2>
+            <div id="users_list"></div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
